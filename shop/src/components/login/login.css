@@ -1,0 +1,40 @@
+.login {
+    height: calc(100vh - 200px);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.login__content {
+   width: 600px;
+   height: 400px;
+   background-color: aliceblue;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+}
+
+.login-content__head h2 {
+    font-size: 25px;
+}
+
+.login-content__body button {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.login-content__body button:hover {
+    background-color: #f2efef;
+}
+
+.login-content__body button > img {
+    width: 30px;
+}
+
+.login-content__body button > p {
+    margin-left: 30px;
+}

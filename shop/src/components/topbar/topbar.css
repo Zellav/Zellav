@@ -1,0 +1,16 @@
+.topbar {
+    background-color: #f1ecec;
+}
+
+.topbar-text {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.topbar-text p:not(:last-child) {
+    margin-right: 40px;
+}
+
+.topbar-text p {
+    color: rgb(118, 117, 117);
+}
